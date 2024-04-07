@@ -13,17 +13,62 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: #9CECFB;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #0052D4, #65C7F7, #9CECFB);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #0052D4, #65C7F7, #9CECFB);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background: #fb9cf6;
+    background: -webkit-linear-gradient(to right, #b100d4, #da65f7, #eb9cfb);
+    background: linear-gradient(to right, #b100d4, #da65f7, #eb9cfb);
     height: 650px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.enlaces {
+    color: rgb(94, 129, 160);
+    top: 0;
+    align-items: center;
+    right: 0;
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 22px;
+    text-decoration: none;
+    justify-content: right;
+    gap: 3rem;
+    list-style: none;
+    font-weight: 600;
+    padding-top: 30px;
+    padding-right: 7rem;
+}
+
+nav a {
+    
+    color: #fff;
+    text-decoration: none;
+    border-radius: 15px;
+    transition: all ease 0.3s;
+
+}
+
+nav a:hover {
+    color: rgb(0, 0, 0);
+    padding: 10px 25px;
+    background-color: #ffffff;
+    
+}
+
+.sub{
+    justify-items: center;
+    color: rgba(17, 75, 6, 0.741);
+    text-decoration: none;
+    position: relative;
+}
+
+
+.menu {
+    display: flex;
+    height: 110vh;
+    align-items: center;
+    font-size: 35px;;
+    justify-content: center;
 }
 
 .main {
@@ -127,9 +172,8 @@ button {
     font-family: Arial, Helvetica, sans-serif;
     background: #3494E6;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #0052D4, #65C7F7, #9CECFB);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #0052D4, #65C7F7, #9CECFB);
+    background: -webkit-linear-gradient(to right, #b100d4, #da65f7, #e09cfb);
+    background: linear-gradient(to right, #b100d4, #da65f7, #e09cfb);
     border: none;
     display: block;
     padding: 0 10px;
@@ -145,11 +189,8 @@ button {
 
 button:hover {
     background: #3494E6;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #0052D4, #65C7F7, #9CECFB);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #0052D4, #65C7F7, #9CECFB);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to left, #3b0c4e, #a208c9, #4b1057);
+    background: linear-gradient(to left, #3b0c4e, #a208c9, #4b1057);
     ;
 
 }
@@ -162,10 +203,8 @@ button:hover {
     display: block;
     padding: 11px 35px;
     background: #3494E6;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #0052D4, #65C7F7, #9CECFB);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #0052D4, #65C7F7, #9CECFB);
+    background: -webkit-linear-gradient(to right, #b100d4, #da65f7, #e09cfb);
+    background: linear-gradient(to right, #b100d4, #da65f7, #e09cfb);
     color: #F9FAFC;
     align-items: center;
     text-decoration: none;
@@ -175,24 +214,8 @@ button:hover {
 
 .btn-1:hover {
     background: #3494E6;
-    /* fallback for old browsers */
     background: -webkit-linear-gradient(to left,  #3b0c4e, #a208c9, #4b1057);
-    /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #3b0c4e, #a208c9, #4b1057);
-}
-
-footer{
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    padding: 1rem 4%;
-    background-color:rgb(229, 173, 222);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    border-top-right-radius: 50px;
-    border-start-start-radius: 50px;
 }
 
 @media screen and (max-width:500px) {
