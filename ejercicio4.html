@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promedio</title>
+    
+    <link rel="stylesheet" href="ejercicio4.css">
+</head>
+
+<body>
+    <section class="main">
+        <div class="menu">
+            <nav>
+                <ul class="enlaces">
+                    <li><a href="index.html" target="_blank" class="link">Inicio</a></li>
+                    <li><a href="ejercicio1.html" target="_blank" class="link">Ejercicio 1</a></li>
+                    <li><a href="ejercicio2.html" target="_blank" class="link">Ejercicio 2</a></li>
+                    <li><a href="ejercio3.html" target="_blank" class="link">Ejercicio 3</a></li>
+                    <li><a href="ejercicio4.html" target="_blank" class="link">Ejercicio 4</a></li>
+                    <li><a href="ejercicio5.html" target="_blank" class="link">Ejercicio 5</a></li>
+                    <li><a href="ejercicio6.html" target="_blank" class="link">Ejercicio 6</a></li>
+                </ul>
+            </nav>
+            </div>
+                <h2>Ejercicio 4</h2>
+                <p>Un alumno desea saber cual será su calificación final en la materia de Algoritmos. Dicha calificación se compone de los siguientes porcentajes: 55% del promedio de sus tres calificaciones parciales 30% de la calificación del examen final. 15% de la calificación de un trabajo final</p>
+                <br>
+                <br>
+        <div class="contenido">
+            <div class="form">
+                <h1>Calificacion Final</h1>
+                <form action="" method="get" onsubmit="" id="form">
+                    <div class="grupo">
+                        <input type="number" placeholder="Calificacion del 1er Parcial:" class="preguntas" id="cal1" name="cal1" >
+                        <span class=barra></span>
+                    </div>
+                    <div class="grupo">
+                        <input type="number" placeholder="Calificacion del 2do Parcial:" id="cal2" name="cal2" class="preguntas">
+                        <span class=barra></span>
+                    </div>
+                    <div class="grupo">
+                        <input type="number" placeholder="Calificacion del 3er Parcial:" id="cal3" name="cal3" class="preguntas">
+                        <span class=barra></span>
+                    </div>
+                    <div class="grupo">
+                        <input type="number" placeholder="Calificacion del Examen Final:" id="examen" name="examen" class="preguntas">
+                        <span class=barra></span>
+                    </div>
+                    <div class="grupo">
+                        <input type="number" placeholder="Calificacion del Trabajo Final:" id="trabajo" name="trabajo" class="preguntas">
+                        <span class=barra></span>
+                    </div>
+                    <button type="submit">Calcular</button>
+                </form>
+                <h4 id="resultado"></h4>
+                <br>
+                <a href="./index.html" target="_blank" class="btn-1">
+                    <center>Ejercicios</center>
+                </a>
+            </div>
+        </div>
+        
+    </section>
+    <script src="ejercicio4.js"></script>
+</body>
